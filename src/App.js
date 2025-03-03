@@ -1,5 +1,6 @@
 
 import './App.css';
+import Home from './component/Home';
 import Navbar from './component/Navbar';
 import NewBlogs from './component/New-Blogs';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <NewBlogs/>
+      <Home />
     </div>
   );
 }
